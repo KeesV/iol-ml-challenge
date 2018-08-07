@@ -5,7 +5,7 @@ Welcome to the Machine Learning challenge of the Xpirit Epic Event 2018. In this
 ## About the data
 
 Over the past years, we have compiled a data set about cardinals in the Roman Catholic Church. 
-The file to import can be found in [GitHub](https://raw.githubusercontent.com/XpiritBV/GABC2018_HandsOnLabs/master/ML/TheFamily.csv).
+The file to import can be found in [GitHub](https://raw.githubusercontent.com/KeesV/iol-ml-challenge/master/Cardinals.csv).
 
 ### The Cardinals
 
@@ -36,7 +36,7 @@ For every cardinal, we compiled the following information:
 
 ## Walkthrough
 
-Either try it yourself using the file in [GitHub](https://raw.githubusercontent.com/XpiritBV/GABC2018_HandsOnLabs/master/ML/TheFamily.csv) or use the below steps to complete the workshop. In [step 3](step3.md) you will find the hints needed to complete the exercise.
+Either try it yourself using the file in [GitHub](https://raw.githubusercontent.com/KeesV/iol-ml-challenge/master/Cardinals.csv) or use the below steps to complete the workshop. In [step 3](step3.md) you will find the hints needed to complete the exercise.
 
 1. [Step 1](step1.md); build the ML model
 2. [Step 2](step2.md); deploy web service

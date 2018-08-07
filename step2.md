@@ -1,7 +1,7 @@
 # Step 2; deploy the web service
 
 When you have a model that is accurate enough for your needs, you can convert it into a web service. This allows you to submit data to your trained model and get a result. We want to know if a submitted dataset returns a 1 or a 0. So either alive or dead and the certainty of this outcome.
-The data we are offering is a part of the total dataset; the Rank, Age, Gender, Income and Part of the city.
+The data we are offering is a part of the total dataset; the Order, YearsInOffice, Decorated, PersonalWealth and Continent.
 
 ## Set up web service
 

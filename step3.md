@@ -12,19 +12,19 @@ There is both a request/response endpoint as well as a batch endpoint and both c
 
 We built this model to predict who will be the next victim and with some hints, we should be able to query the system and find out who will most likely not survive the night.
 
-We detected a new mob family moving into town. Their properties are listed below and are not part of the already trained model. Use the following data and record the outcome.
+We have narrowed down our list of possible victims to the following five cardinals. Their properties are listed below and are not part of the already trained model. Use the following data and record the outcome.
 
-|Rank|Gender|Age|SiblingSpouse|ParentChild|Income|Neighbourhood|Name|
+|Order|Decorated|YearsInOffice|SiblingSpouse|ParentChild|PersonalWealth|Continent|Name|
 |--|--|--|--|--|--|--|--|
-|3|female|34.5|0|0|7.8292|Q|Maria Licciardi|   
-|3|female|18|0|0|7.2292|C|Connie Corleone|     
-|3|male|17|0|0|7.8958|S|Al Capone|      
-|1|male|40|1|5|311.3875|C|Lucky Luciano|    
-|2|male|36|1|1|3690|C|John Dillinger|
+|CD|no|34.5|0|0|7.8292|Africa|Sergius Durio|   
+|CD|no|18|0|0|7.2292|Eurasia|Epidicus Niger|     
+|CD|yes|17|0|0|7.8958|America|Halisca Eulogius|      
+|CB|yes|40|1|5|311.3875|Eurasia|Pyrgopolynices Commodus|    
+|CP|yes|36|1|1|3690|Eurasia|Pellio Hirrus|
 
 **Note:** you can use the button 'Test (preview)' to feed the parameters to the service for easy testing.
 
 ## The tip!
 
-It turned out that the above data is not totally up to date. One of those family members was recently demoted from boss to henchman and forced to move to Queens. We do not know why, but he messed up seriously. Maybe he will be wacked by his own...
+It turned out that the above data is not totally up to date. One of these cardinals was recently demoted from CB to CD and forced to move to Africa. We do not know why, but he messed up seriously. Maybe he will be wacked by his own...
 

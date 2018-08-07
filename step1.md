@@ -30,19 +30,19 @@ As we are not interested in this specific sample data but want to analyze our vi
 
 ![azuremlimportdata.png](azuremlimportdata.png)
 
-The file to import can be found in [GitHub](https://raw.githubusercontent.com/XpiritBV/GABC2018_HandsOnLabs/master/ML/TheFamily.csv).
+The file to import can be found in [GitHub](https://raw.githubusercontent.com/KeesV/iol-ml-challenge/master/Cardinals.csv).
 
 ## Select data
 
-As we do not need all the data columns, we need to clean some of the data. Use a *Select Columns in Dataset* block to exclude the Name, FamilyMemberId, LastSeenAtCode and PassportNr columns. Keep all the other columns, we need them for the analysis.
+As we do not need all the data columns, we need to clean some of the data. Use a *Select Columns in Dataset* block to exclude the `Name`, `CardinalId` and `PassportNr` columns. Keep all the other columns, we need them for the analysis.
 
 ## Edit metadata
 
-The next step is to make the data categorical. This tells the system how to use the columns further downstream. You can use an *Edit Metadata* block for this. Make sure to select the *Make Categorical* option and apply this on Rank, Neighbourhood, Alive and Gender columns.  
+The next step is to make the data categorical. This tells the system how to use the columns further downstream. You can use an *Edit Metadata* block for this. Make sure to select the *Make Categorical* option and apply this on the `Order`, `Continent`, `Alive` and `Decorated` columns.  
 
 ## Scrub the data
 
-Not all the data is clean enough. We have missing values, empty rows ec, so we need to clean the dataset. The 'Missing Value Scrubber' can be used for this purpose. We advise to place two of those after each other. The first one needs to replace missing values with the median and the second one should just drop the entire row when there are any leftover missing values.
+Not all the data is clean enough. We have missing values, empty rows etc, so we need to clean the dataset. The 'Missing Value Scrubber' can be used for this purpose. We advise to place two of those after each other. The first one needs to replace missing values with the median and the second one should just drop the entire row when there are any leftover missing values.
 
 ## Split
 
@@ -50,7 +50,7 @@ Time to split the data, we need some of it to train, some of it to learn the mod
 
 ## Train
 
-Part of the split data goes to the model training part. Which is based on the *two-class boosted decision tree*. There are more classification options available, so when you have time, try some others to see how they score (see below for an explanation how to check the scoring). Make sure to select the IsAlive column as the columns you want to train for.
+Part of the split data goes to the model training part. Which is based on the *two-class boosted decision tree*. There are more classification options available, so when you have time, try some others to see how they score (see below for an explanation how to check the scoring). Make sure to select the `Alive` column as the columns you want to train for.
 
 ## Score and evaluate
 
