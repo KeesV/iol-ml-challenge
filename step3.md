@@ -26,5 +26,5 @@ We have narrowed down our list of possible victims to the following five cardina
 
 ## The tip!
 
-It turned out that the above data is not totally up to date. One of these cardinals was recently demoted from CB to CD and forced to move to Africa. We do not know why, but he messed up seriously. Maybe he will be wacked by his own...
+It turned out that the above data is not totally up to date. One of these cardinals was recently demoted to CD and forced to move to Africa. We do not know why, but he messed up seriously. Maybe he will be wacked by his own...
 
